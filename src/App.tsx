@@ -114,7 +114,7 @@ function App() {
           className="absolute inset-0"
           style={{
             // backgroundImage: 'url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80")',
-            backgroundImage: 'url("hero-bg.jpg")',
+            backgroundImage: 'url("dist/assets/hero-bg.jpg")',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat'
@@ -182,7 +182,7 @@ function App() {
             <div className="relative rounded-xl overflow-hidden shadow-lg h-[400px]">
               <img 
                 // src="https://images.unsplash.com/photo-1549692520-acc6669e2f0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-                src="profile-img.jpg"
+                src="dist/assets/profile-img.jpg"
                 alt="Professional workspace"
                 className="w-full h-full object-cover"
               />
